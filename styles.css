@@ -1,0 +1,126 @@
+body{
+    background-color: hsl(226, 43%, 10%)
+}
+.container{
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+    height: 100vh; 
+}
+.grid-container{
+    display: grid;
+    height: 370px;
+    width: 770px;
+    gap: 20px;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-rows: 50% 50%;
+}
+.grid-container *{
+    border-radius: 10px;
+    overflow: hidden;
+}
+.item1{
+    grid-row-start: 1;
+    grid-row-end: 3;
+    margin-top: 0px;
+    display: flex;
+    flex-direction: column;
+    background-color: hsl(235, 46%, 20%);
+    
+}
+.item2{
+    background-color: hsl(15, 100%, 70%);
+
+}
+.item3{
+    background-color: hsl(195, 74%, 62%);
+}
+.item4{
+    background-color: hsl(348, 100%, 68%);
+}
+.item5{
+    background-color: hsl(145, 58%, 55%)
+}
+.item6{
+    background-color: hsl(264, 64%, 52%);
+}
+.item7{
+    background-color: hsl(43, 84%, 65%);
+}
+.item2 img{
+    height: 50px;
+    width: 50px;
+    margin-left: 130px;
+    position: relative;
+}
+.item3 img{
+    height: 50px;
+    width: 50px;
+    margin-left: 130px;
+    position: relative;
+}
+.item4 img{
+    height: 50px;
+    width: 50px;
+    margin-left: 130px;
+    position: relative;
+}
+.item5 img{
+    height: 50px;
+    width: 50px;
+    margin-left: 130px;
+    position: relative;
+}
+.item6 img{
+    height: 50px;
+    width: 50px;
+    margin-left: 130px;
+    position: relative;
+}
+.item7 img{
+    height: 50px;
+    width: 50px;
+    margin-left: 130px;
+    position: relative;
+}
+
+.item{
+    height: 150px;
+    bottom: 304.75px;
+    width: 192.5px;
+    position: absolute;
+    background-color: hsl(235, 46%, 20%);
+}
+.itemm{
+    height: 150px;
+    width: 192.5px;
+    bottom: 99px;
+    position: absolute;
+    background-color: hsl(235, 46%, 20%);
+
+}
+.item1a{
+    margin-top: 0;
+    height: 265px;
+    width: 100%;
+    background-color: hsl(246, 80%, 60%);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+
+}
+.item1a *{
+    margin: 20px;
+}
+.item1 img{
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    border: 2px solid white;
+    margin-bottom: 10px;
+
+}
+.item1 p{
+    font-family: "Rubik", sans-serif;
+    font-weight: 300;
+}
