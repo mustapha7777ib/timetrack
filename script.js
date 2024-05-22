@@ -25,11 +25,14 @@ fetch('data.json')
 
     function updateData(timeframe) {
         if (timeframe == 'daily') {
-            $(".a2, .a3").css('opacity', 0.5);
+            $(".a2, .a3").removeClass('active');
+            $(".a1").addClass('active');
         } else if (timeframe == 'weekly') {
-            $(".a1, .a3").css('opacity', 0.5);
+            $(".a1, .a3").removeClass('active');
+            $(".a2").addClass('active');
         } else {
-            $(".a1, .a2").css('opacity', 0.5);
+            $(".a2, .a1").removeClass('active');
+            $(".a3").addClass('active');
         }
 
         $(".c2").text(data[0].timeframes[timeframe].current + "hrs"); 
