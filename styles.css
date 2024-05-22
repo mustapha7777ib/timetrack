@@ -126,7 +126,7 @@ body{
 }
 .item1b *:hover{
     cursor: pointer;
-    opacity: 0.1;
+    opacity: 1;
 
 }
 .item *{
@@ -252,5 +252,9 @@ body{
     }
     .box img{
         margin-left: 230px;
+    }
+    .first p:last-child:hover{
+        cursor: pointer;
+        opacity: 0.3;
     }
 } 
