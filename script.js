@@ -10,16 +10,23 @@ fetch('data.json')
 
     $(".a1").on('click',function(){
         $(".a1").css('opacity',1);
+        $(".a2").css('opacity',0.5);
+        $(".a3").css('opacity',0.5);
+
         updateData('daily');
     });
 
     $(".a2").on('click',function(){
         $(".a2").css('opacity',1);
+        $(".a1").css('opacity',0.5);
+        $(".a3").css('opacity',0.5);
         updateData('weekly');
     });
 
     $(".a3").on('click',function(){
         $(".a3").css('opacity',1);
+        $(".a1").css('opacity',0.5);
+        $(".a2").css('opacity',0.5);
         updateData('monthly');
     });
 
